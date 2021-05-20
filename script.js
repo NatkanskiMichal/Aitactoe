@@ -222,7 +222,7 @@ class Game {
   checkLevel = () => {
     if (this.playerWins === 5) {
       this.hardLevelStart = true;
-      document.body.style.background = `rgb(30,30,30)`;
+      document.body.style.background = `rgb(20,20,20)`;
       this.handlers.forEach(btn => {
         btn.classList.add("activeLvl");
       });
